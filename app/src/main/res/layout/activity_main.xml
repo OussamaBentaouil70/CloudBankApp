@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+    <ImageView
+        android:background="@drawable/logo1"
+        android:layout_marginTop="70dp"
+        android:layout_width="350dp"
+        android:layout_gravity="center" android:layout_height="100dp"/>
+ <LinearLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:orientation="vertical"
+    android:layout_gravity="center" >
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:text="@string/login"/>
+    <EditText
+android:hint="Username"
+        android:layout_gravity="bottom"
+        android:id="@+id/editLogin"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+       />
+</LinearLayout>
+<LinearLayout
+android:layout_marginTop="20dp"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+    android:layout_marginLeft="50dp"
+android:layout_marginRight="50dp"
+android:orientation="vertical"
+android:layout_gravity="center">
+
+
+
+<TextView
+    android:layout_gravity="center"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:textSize="18sp"
+    android:text="@string/password" />
+
+
+
+<EditText
+android:id="@+id/editPassword"
+android:layout_width="match_parent"
+android:layout_height="40dp"
+android:inputType="textPassword"
+    android:background="@drawable/border"
+    android:hint="Password"/>
+
+
+
+
+</LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginRight="50dp"
+        android:text="@string/connection" />
+    <TextView
+        android:id="@+id/forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="@string/forgetPassword"
+        android:textAlignment="center"
+        android:textSize="18sp"
+
+
+        />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+

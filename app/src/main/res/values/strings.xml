@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cloud Bank Application</string>
+    <string name="login">username</string>
+    <string name="password">password</string>
+    <string name="connection">Log In</string>
+    <string name="forgetPassword"><a href="#">Forget Password?</a></string>
+    <string name="compte">Compte: </string>
+    <string name="desc">Desc: </string>
+    <string name="montant">Montant: </string>
+    <string name="date">Date: </string>
+    <string name="solde">Solde: </string>
+    <string name="ref">Reference: </string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+</resources>
